@@ -1,6 +1,10 @@
 URxvt.font: xft:monospace:size=16
 URxvt.scrollBar: false
 
+URxvt.transparent: true
+URxvt.tintColor: white
+URxvt.shading: 20
+
 ! special
 *.foreground:   #a5a2a2
 *.background:   #090300
@@ -37,3 +41,5 @@ URxvt.scrollBar: false
 ! white
 *.color7:       #a5a2a2
 *.color15:      #f7f7f7
+
+! Refresh with 'xrdb ~./Xresources'
