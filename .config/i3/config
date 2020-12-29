@@ -171,10 +171,10 @@ bar {
 }
 
 # Applications to launch on start-up
-# exec_always compton
+
 
 # Set Wallpaper
-exec_always feh --bg-scale Pictures/Mandalorian_West.png
+exec --no-startup-id feh --bg-scale Pictures/Mandalorian_West.png
 
 # Set Windows Border
 for_window [class="^.*"] border pixel 2
