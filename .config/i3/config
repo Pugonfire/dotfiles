@@ -171,4 +171,7 @@ bar {
 }
 
 # Applications to launch on start-up
-exec --no-startup-id clipit
+# exec_always compton
+
+# Set Wallpaper
+exec_always feh --bg-scale Pictures/Mandalorian_West.png
