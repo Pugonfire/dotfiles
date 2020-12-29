@@ -112,8 +112,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Alias git command
+# Aliases
 alias config='/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME'
-# Update Prompt
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+
+# Modify Prompt
 PS1='\e[1;33m[\w]\e[0m \$ '
 
