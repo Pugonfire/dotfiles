@@ -112,4 +112,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Alias git command
 alias config='/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME'
+# Update Prompt
+PS1='\e[1;33m[\w]\e[0m \$ '
+
