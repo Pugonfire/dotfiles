@@ -39,5 +39,5 @@ element {
 }
 
 element selected {
-  background-color: #ffb200;
+  background-color: #9e00ac;
 }

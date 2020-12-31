@@ -178,7 +178,7 @@ exec --no-startup-id feh --bg-scale Pictures/Mandalorian_West.png
 
 # Set Windows Border
 for_window [class="^.*"] border pixel 2
-# class			border		backgr.		text
-client.focused		#ffb200		#ffb200		#ffb200
-client.focused_inactive	#000000		#000000		#ffffff
-client.unfocused	#000000		#000000		#ffffff
+# class			border		backgr.		text		indicator
+client.focused		#9e00ac		#9e00ac		#9e00ac		#fded02
+client.focused_inactive	#000000		#000000		#ffffff		#fded02
+client.unfocused	#000000		#000000		#ffffff		#fded02

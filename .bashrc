@@ -118,5 +118,5 @@ alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
 # Modify Prompt
-PS1='\e[1;33m[\w]\e[0m \$ '
+PS1='\e[1;35m[\w]\e[0m \$ '
 
