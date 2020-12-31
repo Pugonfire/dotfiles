@@ -174,7 +174,7 @@ bar {
 
 
 # Set Wallpaper
-exec --no-startup-id feh --bg-scale Pictures/Mandalorian_West.png
+exec --no-startup-id feh --bg-scale Pictures/Pi.png
 
 # Set Windows Border
 for_window [class="^.*"] border pixel 2
