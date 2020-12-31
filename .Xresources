@@ -1,5 +1,6 @@
 URxvt.font: xft:monospace:size=16
 URxvt.scrollBar: false
+URxvt.iconFile: ~/Pictures/terminal_icon.svg
 
 URxvt.transparent: true
 URxvt.tintColor: white
