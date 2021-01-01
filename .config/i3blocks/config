@@ -1,0 +1,16 @@
+[time]
+command=date +"%R"
+interval=1
+
+[date]
+command=date +"%d %b %C"
+interval=30
+
+[day]
+command=date +"%a"
+interval=30
+
+[rofi]
+full_text=
+command=rofi -show run
+color=#ffffff
