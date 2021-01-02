@@ -170,10 +170,10 @@ bar {
         status_command i3blocks -c ~/.config/i3blocks/config
 	position top
 	font pango:Mono 16
+	separator_symbol " "
 	colors {
 		background #000000
 		statusline #ffffff
-		separator #666666
 
 		# class			border		backgr.		text
 		focused_workspace	#000000		#000000		#9e00ac

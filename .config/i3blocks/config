@@ -1,16 +1,17 @@
+[date]
+command=date +"%a %d %b"
+interval=30
+
 [time]
 command=date +"%R"
 interval=1
 
-[date]
-command=date +"%d %b %C"
-interval=30
-
-[day]
-command=date +"%a"
-interval=30
-
 [rofi]
-full_text=
+full_text=
 command=rofi -show run
+color=#ffffff
+
+[power]
+full_text=
+command=rofi -show power-menu -modi power-menu:~/.config/rofi/rofi-power-menu
 color=#ffffff
