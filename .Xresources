@@ -28,8 +28,8 @@ URxvt.shading: 7
 *.color11:      #fded02
 
 ! blue
-*.color4:       #0d00ac
-*.color12:      #0d00ac
+*.color4:       #01ac9d
+*.color12:      #01ac9d
 
 ! magenta
 *.color5:       #9e00ac
