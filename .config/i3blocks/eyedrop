@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+color=$BLOCK_COLOR 
+#otherwise color may not reset
+icon=$BLOCK_ICON
+
+sleep 0.5
+value=$(grabc 2>/dev/null)
+full_text=</span foreground=$value>$icon</span> </span foreground=$color>$value</span>
+
+
+echo $full_text
+echo "markup_pongo"
