@@ -1,0 +1,24 @@
+#!/usr/bin/bash
+
+FORMAT="${BLOCK_INSTANCE}"
+
+if [[ "${FORMAT}" = "hex" ]]; then
+	sleep 0.5
+	var=$(grabc 2>/dev/null)
+	full_text="${var}"
+	short_text="${full_text}"
+	color="${var}"
+elif [[ "${FORMAT}" = "rgb" ]]; then
+	sleep 0.5
+	var=$(grabc 2>&1 >/dev/null)
+	full_text="${var}"
+	short_text="${full_text}"
+	color="${var}"
+else
+	full_text="NA"
+	short_text="${full_text}"
+fi
+
+echo "${short_text}"
+echo "${full_text}"	
+echo "${color}"	

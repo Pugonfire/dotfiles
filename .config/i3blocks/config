@@ -1,9 +1,15 @@
+[eyedropper]
+command=~/.config/i3blocks/dropper
+full_text=Dropper
+color=#988e01
+instance=rgb
+
 [date]
 command=date +"%a %d %b"
 interval=30
 
 [time]
-command=date +"%R"
+command=date +"%T"
 interval=1
 
 [rofi]
