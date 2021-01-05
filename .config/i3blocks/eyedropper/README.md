@@ -13,7 +13,7 @@ Your mouse will become a crosshair. Click on any color you desire and both the c
 Should you select the color of your bar, you will not be able to see the icon (as the icon and the bar are the same color), but you will still be able to read the hex value
 ![](eyedropper_same_color.png)
 
-### Installation
+### Dependencies
 
 1. Ensure **grabc** is installed. For debian:
 
@@ -23,9 +23,13 @@ $ sudo apt-get install grabc
 
 For more information, visit [muquit/grabc](https://github.com/muquit/grabc)
 
-2. Copy script to your directory of choice
-3. Give it execution permission (`chmod +x eyedropper`)
-4. Add the following blocklet to your i3blocks.conf:
+2. [fontawesome](https://github.com/FortAwesome/Font-Awesome)
+
+# Installation
+
+1. Copy script to your directory of choice
+2. Give it execution permission (`chmod +x eyedropper`)
+3. Add the following blocklet to your i3blocks.conf:
 
 ### Configuring i3blocks
 
@@ -39,3 +43,7 @@ markup=pango
 
 - Change the "foreground" value in "full_text" to change the color of the initial eyedropper icon
 - Change the "instance" value to change the color of the hex value displayed
+
+### Sample Look
+
+![](eyedropper_sample.png)
