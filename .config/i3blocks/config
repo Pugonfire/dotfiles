@@ -1,5 +1,5 @@
 [eyedropper]
-command=~/.config/i3blocks/eyedropper
+command=~/.config/i3blocks/eyedrop/eyedropper
 full_text=<span foreground="#ffffff"></span>
 instance=#ffffff
 markup=pango
