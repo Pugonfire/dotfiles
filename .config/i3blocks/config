@@ -1,8 +1,8 @@
 [eyedropper]
-command=~/.config/i3blocks/dropper
-full_text=Dropper
-color=#988e01
-instance=rgb
+command=~/.config/i3blocks/eyedropper
+full_text=<span foreground="#ffffff"></span>
+instance=#ffffff
+markup=pango
 
 [date]
 command=date +"%a %d %b"
